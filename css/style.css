@@ -1,0 +1,4 @@
+.novaq-wrapper {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+}
