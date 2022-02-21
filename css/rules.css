@@ -1,7 +1,7 @@
 .rules {
     inline-size: min(90%, 500px);
     margin-inline: auto;
-    margin-block-start: 5rem;
+    margin-block: 3rem;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 20%);
 }
 

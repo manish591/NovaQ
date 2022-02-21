@@ -6,9 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://uinova.netlify.app/css/main.css">
     <link rel="stylesheet" href="/css/result.css">
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
     <title>Result</title>
 </head>
 <body>
+    <header class="header grid">
+        <nav class="navbar">
+          <div class="navbar__wrapper flex">
+            <ul class="navbar__list flex">
+              <li class="navbar__items">
+                <h2 class="navbar__logo">NovaQ</h2>
+              </li>
+            </ul>
+            <ul class="navbar__list navbar__list--normal flex">
+              <li class="navbar__items navbar__items--name">Home</li>
+              <li class="navbar__items navbar__items--name">Dashboard</li>
+              <li class="navbar__items navbar__items--name">Profile</li>
+            </ul>
+            <ul class="navbar__list navbar__list--icons flex">
+              <li class="navbar__items">
+                <span class="material-icons-round material-black">home</span>
+              </li>
+              <li class="navbar__items">
+                <span class="material-icons-round material-black"
+                  >dashboard</span
+                >
+              </li>
+              <li class="navbar__items">
+                <span class="material-icons-round material-black">person</span>
+              </li>
+            </ul>
+            <ul class="navbar__list navbar__list flex">
+              <li class="navbar__items">
+                <span class="material-icons-round material-black">search</span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
     <div class="result grid">
         <section class="result__messages">
             <h1 class="result__title">Result</h1>
@@ -68,5 +112,24 @@
             </article>
         </section>
     </div>
+    <footer class="footer">
+        <div class="footer__wrapper grid">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h2 class="footer__logo">NovaQ</h2>
+            </li>
+          </ul>
+          <ul class="footer__list footer__list--links flex">
+            <li class="footer__item">Home</li>
+            <li class="footer__item">Dashboard</li>
+            <li class="footer__item">Profile</li>
+          </ul>
+          <ul class="footer__list footer__list--socials flex">
+            <li class="footer__item">Twitter</li>
+            <li class="footer__item">LinkedIn</li>
+            <li class="footer__item">Github</li>
+          </ul>
+        </div>
+    </footer>
 </body>
 </html>

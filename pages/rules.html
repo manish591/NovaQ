@@ -6,29 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://uinova.netlify.app/css/main.css">
     <link rel="stylesheet" href="/css/rules.css">
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <title>Rules</title>
 </head>
 <body class="surface-two">
-    <div class="rules">
+    <header class="header grid">
+        <nav class="navbar">
+          <div class="navbar__wrapper flex">
+            <ul class="navbar__list flex">
+              <li class="navbar__items">
+                <h2 class="navbar__logo">NovaQ</h2>
+              </li>
+            </ul>
+            <ul class="navbar__list navbar__list--normal flex">
+              <li class="navbar__items navbar__items--name">Home</li>
+              <li class="navbar__items navbar__items--name">Dashboard</li>
+              <li class="navbar__items navbar__items--name">Profile</li>
+            </ul>
+            <ul class="navbar__list navbar__list--icons flex">
+              <li class="navbar__items">
+                <span class="material-icons-round material-black">home</span>
+              </li>
+              <li class="navbar__items">
+                <span class="material-icons-round material-black"
+                  >dashboard</span
+                >
+              </li>
+              <li class="navbar__items">
+                <span class="material-icons-round material-black">person</span>
+              </li>
+            </ul>
+            <ul class="navbar__list navbar__list flex">
+              <li class="navbar__items">
+                <span class="material-icons-round material-black">search</span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <main class="rules">
         <ul class="lists rules__list">
             <li class="lists__item lists__heading">
               <h3 class="rules__heading">Rules</h3>
             </li>
             <li class="lists__item rules__item flex">
                 <span class="material-icons-round">double_arrow</span>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>You will be awarded 10 Points for right answer.</p>
             </li>
             <li class="lists__item rules__item flex">
                 <span class="material-icons-round">double_arrow</span>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>You need to answer before the timer ends otherwise no points will be awarded.</p>
             </li>
             <li class="lists__item rules__item flex">
                 <span class="material-icons-round">double_arrow</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>You can quit quiz anytime.</p>
             </li>
             <li class="lists__item rules__item flex">
                 <span class="material-icons-round">double_arrow</span>
@@ -50,6 +90,25 @@
                 <button class="rules__start-quiz btn btn--contained-primary">Start Quiz</button>
             </li>
           </ul>          
-    </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper grid">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <h2 class="footer__logo">NovaQ</h2>
+                </li>
+              </ul>
+              <ul class="footer__list footer__list--links flex">
+                <li class="footer__item">Home</li>
+                <li class="footer__item">Dashboard</li>
+                <li class="footer__item">Profile</li>
+              </ul>
+              <ul class="footer__list footer__list--socials flex">
+                <li class="footer__item">Twitter</li>
+                <li class="footer__item">LinkedIn</li>
+                <li class="footer__item">Github</li>
+              </ul>
+            </div>
+        </footer>
 </body>
 </html>
